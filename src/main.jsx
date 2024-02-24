@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import WebFont from 'webfontloader'
 import App from './pages/App.jsx'
 import './assets/styles/index.css'
 import Destination from './pages/Detail.jsx'
@@ -15,6 +16,18 @@ const router = createBrowserRouter([
     element: <Destination />
   }
 ])
+
+WebFont.load({
+  google: {
+    families: ['Roboto:400,700']
+  },
+  active: () => {
+    console.log('Fonts Active')
+  },
+  inactive: () => {
+    console.log('Fonts Inactive');
+  }
+})
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
