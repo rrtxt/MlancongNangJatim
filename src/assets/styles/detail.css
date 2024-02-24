@@ -1,0 +1,38 @@
+.detail-status-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.detail-img,
+.detail-status {
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 80vw;
+}
+
+.detail-img {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.detail-status {
+  background: linear-gradient(to top, #141414, #00000000);
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+
+  display: flex;
+  align-items: end;
+}
+
+.status-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+}
