@@ -19,7 +19,7 @@ const router = createBrowserRouter([
 
 WebFont.load({
   google: {
-    families: ['Roboto:400,900']
+    families: ['Roboto:100,400,600,900']
   },
   active: () => {
     console.log('Fonts Active')
