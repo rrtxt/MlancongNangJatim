@@ -4,16 +4,40 @@
   font-size: 28px;
 }
 
+.temp {
+  color: black;
+  font-weight: 900;
+  font-size: 28px;
+}
+
 .weather-container {
+  cursor: pointer;
   background-color: #f5c451;
   padding: 10px 20px;
 
   display: flex;
   align-items: center;
   gap: 20px;
+
+  max-width: 235px;
 }
 
 .transport-container {
   display: flex;
   gap: 20px;
+}
+
+.weather-dropdown {
+  position: absolute;
+}
+
+.weather-dd-content {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+
+  background-color: #eae9e9;
+  border: 1px solid black;
+
+  padding: 10px 20px;
 }
