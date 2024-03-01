@@ -82,7 +82,7 @@ a {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: transparent;
+  background-color: var(--bluebase);
   box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
   z-index: var(--z-fixed);
 }
@@ -175,7 +175,7 @@ a {
 
 .nav__link {
   color: var(--white-color);
-  background-color: var(--bluebase);
+  background-color: transparent;
   font-weight: var(--font-semi-bold);
   padding: 1.25rem 1.5rem;
   display: flex;
