@@ -3,9 +3,11 @@ import "../assets/styles/detail.css";
 import RelatedVideo from "../components/Related-Video";
 import WeatherStatus from "../components/Weather-Status";
 import { Icon } from "@iconify/react";
+import NearestDestinationCard from "../components/Nearest-Destination-Card";
 
 function Destination() {
-  const [videos, setVideos] = useState([1, 2, 3, 4]);
+  const [videos] = useState([1, 2, 3, 4]);
+  const [destinations] = useState([1, 2, 3, 4, 5, 6]);
   return (
     <div>
       <div className="detail-status-container">
@@ -76,13 +78,16 @@ function Destination() {
           <h2 className="content-title">Video Terkait</h2>
           <div className="videos-container">
             {videos.map((video) => (
-              <RelatedVideo key={video} videoId={"7335209680530148639"} />
+              <RelatedVideo key={video} videoId={"7317145217650429189 "} />
             ))}
           </div>
         </div>
         <div className="nearest-destination">
+          <h2 className="content-title">Destinasi Terdekat</h2>
           <div className="destinations-container">
-            <h2 className="content-title">Destinasi Terdekat</h2>
+            {destinations.map((destination) => (
+              <NearestDestinationCard key={destination} />
+            ))}
           </div>
         </div>
       </div>

@@ -126,4 +126,14 @@
   align-items: start;
 
   padding-top: 20px;
+
+  border-bottom: 1px solid #3d4043;
+  padding-bottom: 75px;
+}
+
+.destinations-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  /* height: 100%; */
 }
