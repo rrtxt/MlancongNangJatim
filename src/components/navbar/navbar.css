@@ -233,6 +233,7 @@ a {
   font-weight: var(--font-semi-bold);
   transition: background-color .3s;
   font-size: 1rem;
+  text-align: start;
 }
 
 

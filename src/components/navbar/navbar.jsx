@@ -39,13 +39,13 @@ export default function Nav() {
                             <ul className="dropdown__menu">
                                 <li>
                                     <a href="#" className="dropdown__link">
-                                    <i className="ri-plant-line"></i> Lingkungan
+                                    <i className="ri-plant-line"></i>Lingkungan
                                     </a>
                                 </li>
 
                                 <li>
                                     <a href="#" className="dropdown__link">
-                                    <i className="ri-artboard-2-line"></i> StayCation
+                                    <i className="ri-opera-line"></i>Budaya
                                     </a>
                                 </li>
 
@@ -56,7 +56,7 @@ export default function Nav() {
                                 </li>
                                 <li>
                                     <a href="#" className="dropdown__link">
-                                    <i className="ri-game-line"></i> See more...
+                                    <i className="ri-map-pin-add-line"></i> See more
                                     </a>
                                 </li>
                             </ul>
