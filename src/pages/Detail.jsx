@@ -1,8 +1,11 @@
+import { useState } from "react";
 import "../assets/styles/detail.css";
+import RelatedVideo from "../components/Related-Video";
 import WeatherStatus from "../components/Weather-Status";
 import { Icon } from "@iconify/react";
 
 function Destination() {
+  const [videos, setVideos] = useState([1, 2, 3, 4]);
   return (
     <div>
       <div className="detail-status-container">
@@ -71,6 +74,16 @@ function Destination() {
         </div>
         <div className="related-video">
           <h2 className="content-title">Video Terkait</h2>
+          <div className="videos-container">
+            {videos.map((video) => (
+              <RelatedVideo key={video} videoId={"7335209680530148639"} />
+            ))}
+          </div>
+        </div>
+        <div className="nearest-destination">
+          <div className="destinations-container">
+            <h2 className="content-title">Destinasi Terdekat</h2>
+          </div>
         </div>
       </div>
     </div>

@@ -3,7 +3,7 @@ import "../assets/styles/components/weather-status.css";
 import { useState, useEffect } from "react";
 
 function WeatherStatus() {
-  const [initDate, setInitDate] = useState(new Date());
+  const [initDate] = useState(new Date());
   const [dates, setDates] = useState([]);
   const [isActive, setIsActive] = useState(false);
 
