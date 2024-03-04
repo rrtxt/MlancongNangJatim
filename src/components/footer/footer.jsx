@@ -18,16 +18,23 @@ export default function Foot() {
                <a href="#"><FontAwesomeIcon icon={faLinkedinIn} /></a>
               </div>
            </div>
-  
-           <div className="footer-col">
-              <h4>Jelajahi</h4>
-              <ul>
-                 <li><a href="#">Tentang Kami</a></li>
-                 <li><a href="#">Kota Wisata</a></li>
-                 <li><a href="#">Pencarian Destinasi</a></li>
-              </ul>
-           </div>
-  
+
+           
+               <div className="footer-col">
+                  <div className="footnav" >
+                     <h4>Jelajahi</h4>
+                     <ul>
+                        <li><a href="#">Tentang Kami</a></li>
+                        <li><a href="#">Kota Wisata</a></li>
+                        <li><a href="#">Pencarian Destinasi</a></li>
+                     </ul>
+                  </div>
+                  <div className="footlogo">
+                  <h4 id="uhuyy"></h4>
+                     <img className="logo_foot" src={"/src/assets/image/footlogo.png"} alt="MlancongNangJatim"/>
+                  </div>
+               </div>
+            
         </div>
      </footer>
     )

@@ -3,16 +3,21 @@ import "./searchbar.css";
 import "remixicon/fonts/remixicon.css";
 
 export default function SearchBar() {
+    
   const [searchInput, setSearchInput] = useState("");
   const [selected, setSelected]= useState("Jenis Wisata");
 
   const [selectedCity, setSelectedCity] = useState("");
-  const cities = ["Afghanistan", "Algeria", "Argentina", "Australia", "Bangladesh", "Belgium", "Bhutan",
-  "Brazil", "Canada", "China", "Denmark", "Ethiopia", "Finland", "France", "Germany",
-  "Hungary", "Iceland", "India", "Indonesia", "Iran", "Italy", "Japan", "Malaysia",
-  "Maldives", "Mexico", "Morocco", "Nepal", "Netherlands", "Nigeria", "Norway", "Pakistan",
-  "Peru", "Russia", "Romania", "South Africa", "Spain", "Sri Lanka", "Sweden", "Switzerland",
-  "Thailand", "Turkey"];
+  const cities = ["Bangkalan", "Banyuwangi", "Batu", "Blitar", "Bojonegoro", "Gresik", "Lamongan", 
+  "Lumajang", "", "Jember", "Kediri", "Madiun", "Malang", "Nganjuk", "Ngawi", "Magetan", "Mojokerto", 
+  "Pamekasan", "Pasuruan", "Ponorogo", "Probolinggo", "Sidoarjo", "Sumenep", "Surabaya","Tuban", 
+  "Tulungagung", "Trenggalek"];
+
+  const [isMenuVisible, setMenuVisible] = useState(false);
+  
+    const toggleMenu = () => {
+      setMenuVisible(!isMenuVisible);
+    };
   
 
   const handleInputChange = (e) => {
@@ -45,17 +50,21 @@ export default function SearchBar() {
                     
                 </div>
                 <div className="filter">
-                    <div className="filterkota">
-                    <FilterDropdown
-                        dropdownType="kota"
-                        countries={cities}  // Change prop name to 'countries'
-                        selected={selectedCity}
-                        setSelected={setSelectedCity}
-                        placeholder={` ${selectedCity || 'Kota'}`}
-                        />
+                    <div className="posisi"> 
+                        <div className="filterkota">
+                        <FilterDropdown
+                            dropdownType="kota"
+                            countries={cities}  // Change prop name to 'countries'
+                            selected={selectedCity}
+                            setSelected={setSelectedCity}
+                            placeholder={` ${selectedCity || 'Kota'}`}
+                            />
+                        </div>
                     </div>
-                    <div className="filterwisata">
-                        <Dropdown selected={selected} setSelected={setSelected} />
+                    <div className="posisi"> 
+                        <div className="filterwisata">
+                            <Dropdown selected={selected} setSelected={setSelected} />
+                        </div>
                     </div>
 
                 </div>
@@ -72,7 +81,7 @@ function Dropdown({ selected, setSelected }) {
       <div className="filterwisata"> {/* Use the same class name */}
         <div className="select-btn" onClick={() => setIsActive(!isActive)}>
           <span>{selected}</span>
-          <i className="ri-arrow-drop-down-line"></i>
+          <i className="ri-arrow-down-s-line dropdown__arrow"></i>
         </div>
   
         {isActive && (
@@ -145,7 +154,7 @@ function Dropdown({ selected, setSelected }) {
       <div className={`filter${dropdownType}`}>
         <div className="select-btn" onClick={toggleDropdown}>
           <span>{selectedCountry || placeholder}</span>
-          <i className="ri-arrow-drop-down-line"></i>
+          <i className="ri-arrow-down-s-line dropdown__arrow"></i>
         </div>
         {isActive && (
           <div className="content">

@@ -14,7 +14,7 @@ export default function Nav() {
         <nav className={`nav container ${isMenuVisible ? "show-menu" : ""}`} id="nav-menu">
           <div className="nav__data">
             <a href="#" className="nav__logo">
-              <i className="ri-planet-line"></i> Company
+              <img src={"/src/assets/image/navlogo.png"} alt="MlancongNangJatim"/>
             </a>
   
             <div className={`nav__toggle ${isMenuVisible ? "show-icon" : ""}`} id="nav-toggle" onClick={toggleMenu}>

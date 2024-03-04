@@ -125,9 +125,10 @@ a {
 }
 
 
-.nav__logo i {
-  font-weight: initial;
-  font-size: 1.25rem;
+.nav__logo img {
+  width: 44%;
+  height: 50%;
+  object-fit: cover;
 }
 
 
@@ -191,6 +192,9 @@ a {
   .nav__list {
     background-color: var(--bluebase);
     padding-top: 1rem;
+  }
+  .nav__logo img {
+    width: 32%;;
   }
 }
 
