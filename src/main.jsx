@@ -2,20 +2,15 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import WebFont from 'webfontloader'
-import App from './pages/App.jsx'
-import './assets/styles/index.css'
-import Destination from './pages/Detail.jsx'
+
+import HeroSection from './components/hero.jsx'
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <App />
-  },
-  {
-    path: 'detail',
-    element: <Destination />
+    element: <HeroSection/>
   }
-])
+  ])
 
 WebFont.load({
   google: {
