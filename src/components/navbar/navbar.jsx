@@ -17,7 +17,7 @@ export default function Nav() {
                     {/* <a href="#" className="nav__logo">
                     </a> */}
                     <Link to='/' className="nav__logo">
-                        <img src={"static/image/navlogo.png"} alt="MlancongNangJatim" />
+                        <img src={"/static/image/navlogo.png"} alt="MlancongNangJatim" />
                     </Link>
 
                     <div className={`nav__toggle ${isMenuVisible ? "show-icon" : ""}`} id="nav-toggle" onClick={toggleMenu}>

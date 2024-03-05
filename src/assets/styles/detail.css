@@ -121,6 +121,9 @@
 
 .content-map {
   margin-top: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .related-video {
