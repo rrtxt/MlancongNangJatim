@@ -28,10 +28,7 @@ export default function NavHome() {
           {/* <a href="#" className="nav__logo">
           </a> */}
           <Link to="/" className="nav__logo">
-            <img
-              src={"/src/assets/image/navlogo.png"}
-              alt="MlancongNangJatim"
-            />
+            <img src={"static/image/navlogo.png"} alt="MlancongNangJatim" />
           </Link>
 
           <div
