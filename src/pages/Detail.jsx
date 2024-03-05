@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../assets/styles/index.css";
+// import "../assets/styles/index.css";
 import "../assets/styles/detail.css";
 import RelatedVideo from "../components/Related-Video";
 import WeatherStatus from "../components/Weather-Status";
@@ -10,19 +10,25 @@ function Destination() {
   const [videos] = useState([1, 2, 3, 4]);
   const [destinations] = useState([1, 2, 3, 4, 5, 6]);
   return (
-    <div>
-      <div className="detail-status-container">
-        <img className="detail-img" src="/src/assets/image/detail.png" alt="" />
-        <span className="detail-status">
-          <div className="status-content">
-            <WeatherStatus />
-            <div className="transport-container">
-              {/* <Icon icon="mdi:car-outline" width="72" height="72" /> */}
-              <Icon icon="ph:car" width="72" height="72" />
-              <Icon icon="solar:bus-linear" width="72" height="72" />
+    <div className="detail-container">
+      <div id="status-container">
+        <div className="detail-status-container">
+          <img
+            className="detail-img"
+            src="/src/assets/image/detail.png"
+            alt=""
+          />
+          <span className="detail-status">
+            <div className="status-content">
+              <WeatherStatus />
+              <div className="transport-container">
+                {/* <Icon icon="mdi:car-outline" width="72" height="72" /> */}
+                <Icon icon="ph:car" width="72" height="72" />
+                <Icon icon="solar:bus-linear" width="72" height="72" />
+              </div>
             </div>
-          </div>
-        </span>
+          </span>
+        </div>
       </div>
       <div className="detail-content-container">
         <div className="detail-content">

@@ -4,7 +4,6 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import WebFont from 'webfontloader'
 
 import HeroSection from './components/hero.jsx'
-import './assets/styles/index.css'
 import Destination from './pages/Detail.jsx'
 import SearchPage from './pages/Search.jsx'
 
