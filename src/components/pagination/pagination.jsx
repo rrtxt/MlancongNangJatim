@@ -1,11 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 import { motion } from "framer-motion";
-import './pagination.css'
+import "./pagination.css";
 
-const HardcodedPagination = ({ setCurrentPage, currentPage, totalPages }) => {
+const PaginationButtons = ({ setCurrentPage, currentPage, totalPages }) => {
+  // State for animation
+  const [isAnimating, setIsAnimating] = useState(false);
+  
+
   const handlePageClick = (page) => {
-    setCurrentPage(page);
+    setIsAnimating(true);
+    setTimeout(() => {
+      setCurrentPage(page);
+      setIsAnimating(false);
+    }, 300);
   };
 
   const paginationVariants = {
@@ -25,33 +33,39 @@ const HardcodedPagination = ({ setCurrentPage, currentPage, totalPages }) => {
     },
   };
 
-  // Dummy data for pagination
-  const dummyPages = Array.from({ length: 5 }, (_, index) => index + 1);
+  // Generate page numbers starting from 1
+  const pageNumbers = Array.from({ length: totalPages }, (_, index) => index + 1);
 
   return (
-    <motion.div variants={paginationVariants} initial="hidden" animate="visible">
+    <motion.div
+      variants={paginationVariants}
+      initial="hidden"
+      animate="visible"
+      className={`pagination ${isAnimating ? "animating" : ""}`}
+    >
       <div className="flex mt-8 mb-4">
-        {currentPage !== 0 && (
+        {currentPage !== 1 && ( // Changed condition to check currentPage !== 1
           <span
-            className="w-10 h-10 flex items-center justify-center bg-lightGray rounded-md mr-4 cursor-pointer"
+            className="w-10 h-10 flex items-center justify-center bg-lightGray rounded-md mr-4 cursor-pointer disabled"
             onClick={() => handlePageClick(currentPage - 1)}
           >
             <BsChevronLeft />
           </span>
         )}
 
-        {dummyPages.map((page) => (
+        {pageNumbers.map((page) => (
           <span
-            key={page}
-            className={`block border border-solid border-lightGray hover:bg-lightGray w-10 h-10 flex items-center justify-center rounded-md mr-4 cursor-pointer ${currentPage === page - 1 ? "text-white" : ""
-              }`}
-            onClick={() => handlePageClick(page - 1)}
-          >
-            {page}
-          </span>
+          key={page}
+          className={`block border border-solid border-lightGray w-10 h-10 flex items-center justify-center rounded-md mr-4 cursor-pointer ${
+            page === currentPage ? "normal" : ""
+          }`}
+          onClick={() => handlePageClick(page)}
+        >
+          {page}
+        </span>
         ))}
 
-        {currentPage !== totalPages - 1 && (
+        {currentPage !== totalPages && (
           <span
             className="w-10 h-10 flex items-center justify-center bg-lightGray rounded-md cursor-pointer"
             onClick={() => handlePageClick(currentPage + 1)}
@@ -64,4 +78,4 @@ const HardcodedPagination = ({ setCurrentPage, currentPage, totalPages }) => {
   );
 };
 
-export default HardcodedPagination;
+export default PaginationButtons;
