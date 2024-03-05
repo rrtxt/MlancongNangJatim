@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { BrowserRouter, createBrowserRouter, Route, RouterProvider, Routes } from 'react-router-dom'
 import WebFont from 'webfontloader'
 
 import HeroSection from './components/hero.jsx'
@@ -37,8 +37,15 @@ WebFont.load({
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Layout>
-      <RouterProvider router={router} />
-    </Layout>
+    <BrowserRouter>
+      <Layout>
+        <Routes>
+          {/* <RouterProvider router={router} /> */}
+          <Route path='/' element={<HeroSection />} />
+          <Route path='search' element={<SearchPage />} />
+          <Route path='detail' element={<Destination />} />
+        </Routes>
+      </Layout>
+    </BrowserRouter>
   </React.StrictMode>,
 )
