@@ -39,7 +39,7 @@ function HeroSection() {
         <h2>Destinasi Kesukaan</h2>
         <div className="thumbnails-container">
           <div className="thumbnails">
-            <Link to={'/detail'}>
+            <Link to={'detail/1'}>
               <div className="thumbnail">
                 <img src="jatim.jpg" alt="Destination 1" />
               </div>

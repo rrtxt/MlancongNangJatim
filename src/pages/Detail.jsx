@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 // import "../assets/styles/index.css";
 import "../assets/styles/detail.css";
 import RelatedVideo from "../components/Related-Video";
@@ -6,9 +6,24 @@ import WeatherStatus from "../components/Weather-Status";
 import { Icon } from "@iconify/react";
 import NearestDestinationCard from "../components/Nearest-Destination-Card";
 
+import data from "../data.json";
+import { useParams } from "react-router";
+
 function Destination() {
   const [videos] = useState([1, 2, 3, 4]);
   const [destinations] = useState([1, 2, 3, 4, 5, 6]);
+  const [destination, setDestination] = useState(null);
+  const params = useParams();
+  const destinationId = params.destination_id;
+
+  useEffect(() => {
+    const destinasi = data.surabaya.filter(
+      (destinasi) => destinasi.id == destinationId
+    );
+    console.log(destinasi[0]);
+    setDestination(destinasi[0]);
+  }, [destinationId]);
+
   return (
     <div className="detail-container">
       <div id="status-container">
@@ -28,18 +43,11 @@ function Destination() {
       </div>
       <div className="detail-content-container">
         <div className="detail-content">
-          <h2 className="content-title">Bukit What</h2>
+          <Suspense fallback={<div>Loading</div>}>
+            <h2 className="content-title">{destination?.place_name}</h2>
+          </Suspense>
           <div className="content-desc">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
-              ipsum laudantium, vitae magni hic placeat quo ipsam alias laborum
-              quis possimus. Quaerat, cupiditate! Nesciunt, dolorum debitis!
-              Sunt exercitationem molestias quos. Sequi mollitia laudantium
-              quasi magnam voluptatem quo enim dolores consectetur, pariatur
-              odio illum rerum nulla, omnis itaque corrupti ut unde iste quas,
-              dolor aspernatur. Expedita soluta velit recusandae? In,
-              repudiandae?
-            </p>
+            {/* <p>{destination.deskripsi}</p> */}
             <div className="content-price">
               <Icon
                 icon="la:money-bill-wave"

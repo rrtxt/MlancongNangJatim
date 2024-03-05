@@ -43,7 +43,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           {/* <RouterProvider router={router} /> */}
           <Route path='/' element={<HeroSection />} />
           <Route path='search' element={<SearchPage />} />
-          <Route path='detail' element={<Destination />} />
+          <Route path='detail/:destination_id' element={<Destination />} />
         </Routes>
       </Layout>
     </BrowserRouter>
