@@ -1,8 +1,33 @@
 #root {
-  max-width: 1280px;
+  
+    /*========== Colors ==========*/
+  /*Color mode HSL(hue, saturation, lightness)*/
+  --black-color: #141414;
+  --black-color-light: hsl(220, 24%, 15%);
+  --black-color-lighten: hsl(220, 20%, 18%);
+  --white-color: #fff;
+  --body-color: hsl(220, 100%, 97%);
+  --bluebase: #3A5E82;
+  --yellowuhuy: #F6BE4F;
+
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font: "Montserrat", sans-serif;
+  --normal-font-size: .938rem;
+
+  /*========== Font weight ==========*/
+  --font-regular: 400;
+  --font-semi-bold: 600;
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+
+  max-width: 100%;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+  background-color: var(--black-color);
+  color: var(--white-color);
 }
 
 .logo {

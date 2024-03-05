@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import WebFont from 'webfontloader'
 import App from './pages/App.jsx'
-import './assets/styles/index.css'
+// import './assets/styles/index.css'
 import Destination from './pages/Detail.jsx'
+import SearchPage from './pages/Search.jsx'
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
   {
     path: 'detail',
     element: <Destination />
+  },
+  {
+    path: 'search',
+    element: <SearchPage />
   }
 ])
 
