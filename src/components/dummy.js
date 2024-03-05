@@ -1,7 +1,7 @@
 export const destinationData = [
     // Surabaya
     {
-      image: "/src/assets/image/tunjungan.png",
+      image: "static/image/tunjungan.png",
       title: "Jalan Tunjungan",
       description: "Disebut sebagai Malioboro nya Surabaya, Jalan Tunjungan punya keunikannya sendiri lho! Ada banyak macam kuliner yang bisa kamu nikmati!",
       videoUrl: "https://youtu.be/H3K6a2-QG24?si=QyI4bsxupnSQSnTf ",
@@ -9,7 +9,7 @@ export const destinationData = [
       type: "Budaya",
     },
     {
-        image: "/src/assets/image/alun.png",
+        image: "static/image/alun.png",
         title: "Alun Alun Kota Surabaya",
         description: "Berbeda dari kebanyakan alun-alun, Alun-Alun Surabaya memiliki layout kawasan komplek yang terdiri dari bangunan design kolonial. Terdapat pameran seni yang indah di bawah alun-alun ini!",
         videoUrl:  "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -17,7 +17,7 @@ export const destinationData = [
         type: "Budaya",
       },
       {
-        image: "/src/assets/image/bungkul.png",
+        image: "static/image/bungkul.png",
         title: "Taman Bungkul",
         description: "Taman Bungkul adalah Ruang Terbuka Hijau (RTH) yang berada di tengah kota Surabaya. fasilitas yang tersedia beragam seperti air minum gratis, taman bermain anak, skateboard track, dan jogging track",
         videoUrl:  "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -25,7 +25,7 @@ export const destinationData = [
         type: "Lingkungan",
       },
       {
-        image: "/src/assets/image/musolah.png",
+        image: "static/image/musolah.png",
         title: "Museum Olahraga",
         description: "Museum ini sebagai sumber informasi dari berbagai cabang olahraga. Kita dapat melihat koleksi olah raga tradisional hingga olah raga berprestasi. Ada piala, piagam, medali, dan lainnya",
         videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -34,7 +34,7 @@ export const destinationData = [
       },
 
       {
-        image: "/src/assets/image/mupend.png",
+        image: "static/image/mupend.png",
         title: "Museum Pendidikan",
         description: "Museum Pendidikan Surabaya diresmikan pada tanggal 25 November 2019. Gedung ini dulu merupakan bangunan sekolah Taman Siswa, yaitu sekolah pertama bagi penduduk pribumi pada masa sebelum kemerdekaan. Bekas sekolah Taman Siswa Surabaya ini sudah lama tidak difungsikan, sehingga pihak pemerintah kota berupaya mengambil alih kembali gedung tersebut.",
         videoUrl:  "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -42,7 +42,7 @@ export const destinationData = [
         type: "Lingkungan",
       },
       {
-        image: "/src/assets/image/tp.png",
+        image: "static/image/tp.png",
         title: "Tunjungan Plaza",
         description: "Tunjungan Plaza Surabaya adalah surganya belanja dan hiburan di kota pahlawan, Surabaya! Dikenal sebagai salah satu pusat perbelanjaan terbesar di Jawa Timur, Tunjungan Plaza memiliki segalanya untuk memenuhi kebutuhan belanja dan hiburan Anda. Dari butik-butik mewah hingga merek lokal yang penuh warna, Anda bisa menemukan apa pun di sini. Selain belanja, Anda juga dapat menikmati berbagai kuliner lezat di food court-nya atau menonton film terbaru di bioskopnya.",
         videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -51,7 +51,7 @@ export const destinationData = [
       },
 
       {
-        image: "/src/assets/image/bapem.png",
+        image: "static/image/bapem.png",
         title: "Balai Pemuda",
         description: "Balai Pemuda di kota Surabaya adalah salah satu gedung bersejarah (cagar budaya) yang dilindungi oleh Pemerintah Kota Surabaya. Gedung Balai Pemuda terletak di jalan Gubenur Suryo Surabaya di dalam komplek yang sekarang dikenal dengan nama Alun-Alun Surabaya.",
         videoUrl:  "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -59,7 +59,7 @@ export const destinationData = [
         type: "Budaya",
       },
       {
-        image: "/src/assets/image/ondomohoen.png",
+        image: "static/image/ondomohoen.png",
         title: "Sate Klopo Ondomohen Bu Asih",
         description: "Sate Kelapa Ondomohen Bu Asih di Surabaya adalah tempat yang wajib dikunjungi bagi pecinta kuliner! Di sini, Anda akan menemukan sate yang lezat dan unik, dengan bumbu kelapa yang khas dan cita rasa yang menggoda selera.",
         videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -68,7 +68,7 @@ export const destinationData = [
       },
     //Malang
     {
-      image: "/src/assets/image/tsprigen.png",
+      image: "static/image/tsprigen.png",
       title: "Taman Safari Prigen",
       description: "Taman Safari Prigen (juga dikenal sebagai Taman Safari Indonesia II Jatim) adalah kebun binatang yang terletak di Prigen, Jawa Timur, di mana satwa dapat bebas berkeliaran di area yang mengikuti habitat asli mereka. Selain itu, kebun binatang ini juga memiliki berbagai macam aktivitas untuk segala usia!",
       videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -76,7 +76,7 @@ export const destinationData = [
       type: "Aksi Hiburan",
     },
     {
-      image: "/src/assets/image/tot.png",
+      image: "static/image/tot.png",
       title: "Temple of Terror Taman Safari Prigen",
       description: "Temple Of  Teror merupakan pertunjukan stuntman yang akan membuat adrenalin penonton terpacu. Pertunjukan yang menceritakan perjalanan Jones dalam misi menyelamatkan kekasihnya yaitu Kelly yang diculik oleh bandit jahat dan dibantu oleh suku - suku amazon. Dalam perjalananya Jones dibantu oleh sahabatnya yang bernama Max. Dalam misi perjalanan menyelamatkan Kelly, mereka berdua harus melewati berbagai jebakan maut yang ada.",
       videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -84,7 +84,7 @@ export const destinationData = [
       type: "Aksi Hiburan",
     },
     {
-      image: "/src/assets/image/cakdayu.png",
+      image: "static/image/cakdayu.png",
       title: "Bakso Cak To Dayurejo",
       description: "Ada banyak pedagang yang menjajakan bakso di Pasuruan yang wajib dicoba sebelum liburan ke Cimory Dairyland Prigen. Satu di antaranya yang sayang dilewatkan ada Bakso Cak To Dayurejo. Warung bakso ini punya beragam menu bakso yang menggoyang lidah.Ada bakso jumbo tetelan, bakso sedang tetelan, bakso mercon campur dan bakso mercon tetelan.",
       videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -92,7 +92,7 @@ export const destinationData = [
       type: "Kafe dan Restoran",
     },
     {
-      image: "/src/assets/image/jengit.png",
+      image: "static/image/jengit.png",
       title: "Jendela Langit",
       description: "Jendela Langit Prigen hadir dengan konsep wisata alam perbukitan yang menyuguhkan panorama keindahan gunung Arjuno menjadi pemandangan epic, sehingga memanjakan sejauh mata memandang. Siapa pun ketika berada di sini bakal dibuat terpesona keindahan alam tersaji.",
       videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -100,7 +100,7 @@ export const destinationData = [
       type: "Lingkungan",
     },
     {
-      image: "/src/assets/image/condoma.png",
+      image: "static/image/condoma.png",
       title: "Coban Rondo",
       description: "Coban Rondo adalah air terjun terkenal dengan tinggi 84 meter yang terletak di Kabupaten Malang dan memiliki area untuk piknik, berenang di segarnya kolam air alami, memancing sambil dikelilingi alam dan udara yang segar.",
       videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -108,7 +108,7 @@ export const destinationData = [
       type: "Lingkungan",
     },
     {
-      image: "/src/assets/image/condo.png",
+      image: "static/image/condo.png",
       title: "Taman Labirin Coban Rondo",
       description: "Dulu kalau ke Coban Rondo, tempat wisata yang dituju paling air terjunnya. Tapi semenjak ada labirin, bisa dibilang labirin adalah tujuan utama wisatawan setelah air terjun Coban Rondo. Uniknya, setiap hari, labirin Coban Rondo akan diubah rute jalannya. Yang sudah pernah merasakan labirin Coban Rondo kemudian mencoba untuk kedua kali, jangan merasa sombong dulu karena Anda merasa sudah hafal rutenya. Meski luasnya kecil, tapi kesulitannya tetap pekat terasa.",
       videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -116,7 +116,7 @@ export const destinationData = [
       type: "Aksi Hiburan",
     },
     {
-      image: "/src/assets/image/nirwana.png",
+      image: "static/image/nirwana.png",
       title: "Bukit Nirwana",
       description: "Bukit Nirwana merupakan salah satu tujuan rekreasi populer di Kabupaten Malang. Tempat wisata ini termasuk dalam kawasan Desa Pujon. Kawasan dataran tinggi ini memang menawarkan panorama alam yang cantik. Lokasinya pun dekat dengan kota, sehingga melejit sebagai destinasi wisata hits.",
       videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -124,7 +124,7 @@ export const destinationData = [
       type: "Lingkungan",
     },
     {
-      image: "/src/assets/image/cowu.png",
+      image: "static/image/cowu.png",
       title: "Coban Sewu",
       description: "Coban Sewu adalah air terjun yang letaknya berada di perbatasan Lumajang dan Malang. Air terjun yang satu ini memiliki pemandangan indah, sangat layak untuk dikunjungi. Keunikan dari air terjun ini yaitu memiliki mata air yang jumlahnya banyak. Tak heran jika air terjun yang satu ini juga mendapat julukan Tumpang Sewu.",
       videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -132,7 +132,7 @@ export const destinationData = [
       type: "Lingkungan",
     },
     {
-      image: "/src/assets/image/jp1.png",
+      image: "static/image/jp1.png",
       title: "Jawa Timur Park 1",
       description: "Jatim Park 1 yang terletak di Batu Malang. Tempat rekreasi keluarga yang menawarkan berbagai wahana hiburan dan permainan menakjubkan. Terletak di lereng timur Gunung Panderman di ketinggian 850 meter dari permukaan laut. Tak hanya itu, panorama indah dan hawa sejuk khas juga akan membuat kita bisa melepas penat dan merasa rileks.",
       videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -143,7 +143,7 @@ export const destinationData = [
     // probolinggo
 
     {
-      image: "/src/assets/image/ketapang.png",
+      image: "static/image/ketapang.png",
       title: "Gili Ketapang",
       description: " Gili Ketapang, sebuah pulau cantik di utara Probolinggo, Jawa Timur, Indonesia, menawarkan keindahan alam yang menakjubkan. Dengan pantai pasir putih, air laut yang jernih, dan kehidupan bawah laut yang mempesona, pulau ini adalah tempat yang sempurna untuk bersantai dan menjelajahi keajaiban laut. Ajaklah teman dan keluarga Anda untuk menikmati petualangan snorkeling yang tak terlupakan atau sekadar bersantai di tepi pantai yang tenang.",
       videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -151,7 +151,7 @@ export const destinationData = [
       type: "Lingkungan",
     },
     {
-      image: "/src/assets/image/pantairema.png",
+      image: "static/image/pantairema.png",
       title: "Pantai Permata Pilang Dan Reboisasi Mangrove",
       description: "Wisata konservasi mangrove Pantai Permata Pilang merupakan salah satu destinasi wisata yang berbasis ekowisata di Kota Probolinggo. Spot foto yang digunakan dengan mengusung tema ramah lingkungan dan bisa bertahan dalam jangka waktu yang berkelanjutan. Dengan memanfaatkan ketersediaan sumber daya alam berupa ranting dan kayu yang tidak terpakai dari hasil pohon mangrove.",
       videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -159,7 +159,7 @@ export const destinationData = [
       type: "Lingkungan",
     },
     {
-      image: "/src/assets/image/lunalun.png",
+      image: "static/image/lunalun.png",
       title: "Alun-Alun Probolinggo",
       description: "Sebagai pusat kota Probolinggo, Alun-alun ini letaknya dekat dengan stasiun kereta api dan pelabuhan. Tak hanya itu, jaraknya juga dekat dengan Masjid Agung Probolinggo. Aktivitas yang sering berlangsung di sini cukup beragam. Pengunjung bisa berolahraga, berjalan-jalan santai, atau mengajak anak bermain di taman.",
       videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -167,7 +167,7 @@ export const destinationData = [
       type: "Aksi Hiburan",
     },
     {
-      image: "/src/assets/image/madakari.png",
+      image: "static/image/madakari.png",
       title: "Air Terjun Madakaripura",
       description: " Madakaripura Waterfall, keajaiban alam di Probolinggo, Jawa Timur, Indonesia. Dengan air jatuh setinggi 200 meter, ini adalah air terjun tertinggi kedua di Indonesia. Terdapat trek menarik melalui hutan hijau untuk mencapai keindahan ini. Rasakan kesegaran alam dan keindahan yang memukau. Ajaklah teman dan keluarga Anda untuk merasakan keajaiban ini bersama-sama!",
       videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -175,7 +175,7 @@ export const destinationData = [
       type: "Lingkungan",
     },
     {
-      image: "/src/assets/image/terjunbidadari.png",
+      image: "static/image/terjunbidadari.png",
       title: "Air Terjun Purba Tirai Bidadari",
       description: "Air Terjun Purba Tirai Bidadari memiliki keunikan dan daya tarik tersendiri. Selain pemandangan alamnya yang indah, bentuk Air Terjun Purba Tirai Bidadari tergolong langka. Bentuknya yang menyerupai tirai bidadari yang tergantung di tebing batu membuatnya terlihat begitu indah dan mempesona. Air terjun ini memiliki ketinggian sekitar 50 meter dan memiliki tiga tingkatan yang semakin menambah pesonanya.",
       videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -183,7 +183,7 @@ export const destinationData = [
       type: "Lingkungan",
     },
     {
-      image: "/src/assets/image/rezeki.png",
+      image: "static/image/rezeki.png",
       title: "Ayu Rezeki Park",
       description: "Tempat ini menawarkan berbagai wahana air yang seru dan menarik, seperti waterboom, waterpark, dan kolam renang.Selain itu, destinasi ini juga dilengkapi dengan fasilitas lain yang lengkap dan nyaman, seperti fitness, lapangan badminton, futsal, kamar bilas, kamar ganti, toilet, tempat ibadah, dan kantin.Destinasi ini cocok untuk wisata keluarga, karena ada kolam renang khusus untuk anak-anak dan balita. Lokasinya juga mudah dijangkau, karena berada dekat dengan gerbang tol Probolinggo Timur.",
       videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -191,7 +191,7 @@ export const destinationData = [
       type: "Aksi Hiburan",
     },
     {
-      image: "/src/assets/image/danugung.png",
+      image: "static/image/danugung.png",
       title: "Danau Ranau Agung",
       description: "Danau Ranu Agung ini memiliki air yang jernih karena berasal dari sumber mata air. Terdapat empat mata air di danau itu. Sehingga air di danau tersebut tidak pernah surut meskipun memasuki musim kemarau. Anda akan dimanjakan dengan pemandangan air berwarna biru. Wisatawan juga bisa menikmati keindahan tebing bebatuan kokoh yang mengelilingi danau itu.",
       videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -199,7 +199,7 @@ export const destinationData = [
       type: "Lingkungan",
     },
     {
-      image: "/src/assets/image/pansirtih.png",
+      image: "static/image/pansirtih.png",
       title: "Pasir Pantai Putih",
       description: "Salah satu kelebihan dari wisata pantai ini adalah hamparan pasir putihnya yang sangat luas. Jadi, pengunjung bisa beristirahat sambil bersejuk di atas pasir putih nan indah tersebut. Tidak perlu khawatir tentang terik matahari saat berkunjung di siang hari, karena pantai cantik ini dilengkapi dengan pepohonan yang cukup rindang.",
       videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -207,7 +207,7 @@ export const destinationData = [
       type: "Lingkungan",
     },
     {
-      image: "/src/assets/image/bentar.png",
+      image: "static/image/bentar.png",
       title: "Pantai bentar",
       description: "Pantai yang satu ini memiliki ciri khas dermaga kayu sepanjang sekitar 50 meter yang menjorok ke arah laut. Selain itu keindahan pantai, di sini juga tersedia berbagai macam wahana permainan bagi anak-anak.",
       videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -217,7 +217,7 @@ export const destinationData = [
 
     // Mojokerto
     {
-      image: "/src/assets/image/cantikus.png",
+      image: "static/image/cantikus.png",
       title: "Candi Tikus",
       description: "Bangunan candi berbentuk seperti taman dengan kolam yang mengelilinginya. Keunikan ini membuat ramai pengunjung mendatangi objek wisata bersejarah ini.",
       videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -225,7 +225,7 @@ export const destinationData = [
       type: "Budaya",
     },
     {
-      image: "/src/assets/image/redungklurak.png",
+      image: "static/image/redungklurak.png",
       title: "Kedung Klurak",
       description: "Wisata Mojokerto ini cocok untuk Anda yang ingin melepas rasa penat dari rutinitas sehari-hari Anda. Banyak sekali aktivitas menarik yang bisa Anda coba mulai dari bersantai, berenang, hingga berkemah di tempat ini.",
       videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -233,7 +233,7 @@ export const destinationData = [
       type: "Lingkungan",
     },
     {
-      image: "/src/assets/image/vihara.png",
+      image: "static/image/vihara.png",
       title: "Maha Vihara Mojopahit",
       description: "Maha Vihara Mojopahit memiliki patung Buddha tidur terbesar yang dibangun tahun 1993 melibatkan pematung dari Solo Jawa Tengah, serta pematung dari Desa Bejijong dan Desa/Kecamatan Trowulan.",
       videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -241,7 +241,7 @@ export const destinationData = [
       type: "Budaya",
     },
     {
-      image: "/src/assets/image/bajangratu.png",
+      image: "static/image/bajangratu.png",
       title: "Candi Bajangratu",
       description: "Meski terkenal sebagai candi, sebenarnya situs bersejarah ini merupakan sebuah gapura. Candi ini juga punya sejarah dan kisah menarik.",
       videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -249,7 +249,7 @@ export const destinationData = [
       type: "Budaya",
     },
     {
-      image: "/src/assets/image/majapahit.png",
+      image: "static/image/majapahit.png",
       title: "Museum Majapahit",
       description: "Di museum ini, pengunjung dapat menyaksikan berbagai peninggalan Kerajaan Majapahit. Tak mengherankan memang, karena daerah Trowulan merupakan bekas lokasi dari Kerajaan Majapahit. Yang mana candi-candi peninggalan Majapahit pun banyak ditemukan di daerah Trowulan.",
       videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -257,7 +257,7 @@ export const destinationData = [
       type: "Budaya",
     },
     {
-      image: "/src/assets/image/cowado.png",
+      image: "static/image/cowado.png",
       title: "Coban Watu Ondo",
       description: "",
       videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -265,7 +265,7 @@ export const destinationData = [
       type: "Lingkungan",
     },
     {
-      image: "/src/assets/image/brahu.png",
+      image: "static/image/brahu.png",
       title: "Candi Brahu dan Gentong",
       description: "Candi Brahu Mojokerto bercorak Budha ini merupakan salah satu destinasi wisata sejarah dan edukasi populer di Kabupaten Mojokerto. Tempat ini sering mendapat kunjungan tak hanya dari kalangan turis saja. Melainkan juga dari para siswa.",
       videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -273,7 +273,7 @@ export const destinationData = [
       type: "Budaya",
     },
     {
-      image: "/src/assets/image/penang.png",
+      image: "static/image/penang.png",
       title: "Gunung Penanggungan",
       description: "Gunung Penanggungan adalah salah satu gunung yang populer sebagai destinasi pendakian. Gunung ini terbentang di dua kabupaten di Jawa Timur. Sisi baratnya menempati Kabupaten Mojokerto, sementara sisi timur termasuk dalam Kabupaten Pasuruan.",
       videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -283,7 +283,7 @@ export const destinationData = [
 
     // Banyuwangi
     {
-      image: "/src/assets/image/ijen.png",
+      image: "static/image/ijen.png",
       title: "Kawah Ijen",
       description: "Dataran tinggi Ijen, atau yang lebih dikenal dengan ‘Kawah Ijen’ sangat direkomendasikan untuk dikunjungi, terutama bagi para penggemar dan pendaki gunung. Dataran tinggi ini merupakan kawah aktif yang berukuran sangat besar dengan luas 134 kilometer persegi.",
       videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -291,7 +291,7 @@ export const destinationData = [
       type: "Lingkungan",
     },
     {
-      image: "/src/assets/image/pulaumerah.png",
+      image: "static/image/pulaumerah.png",
       title: "Pantai Pulau Merah",
       description: "Bukit ini memiliki tanah yang berwarna merah,  di mana tanah tersebut tertutup oleh vegetasi hijau. Karena tanah di bukit itulah, pantai ini mendapat julukan Pantai Pulau Merah.",
       videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -299,7 +299,7 @@ export const destinationData = [
       type: "Lingkungan",
     },
     {
-      image: "/src/assets/image/telukjo.png",
+      image: "static/image/telukjo.png",
       title: "Pantai Teluk Ijo",
       description: "Pantai ini memiliki warna air laut yang hijau, menyebabkan tempat wisata ini berbeda dengan pantai lain. Dasar laut di pantai ini dipenuhi alga hijau dan air lautnya cukup dangkal jika dibandingkan pantai lain.",
       videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -307,7 +307,7 @@ export const destinationData = [
       type: "Lingkungan",
     },
     {
-      image: "/src/assets/image/sukamade.png",
+      image: "static/image/sukamade.png",
       title: "Pantai Sukamade",
       description: "Keunikan dari Pantai Sukamade adalah tempat ini menjadi surganya para penyu-penyu karena di sini juga dijadikan lahan sebagai area konservasi untuk tempat penangkaran dan perlindungan bagi penyu-penyu.",
       videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -315,7 +315,7 @@ export const destinationData = [
       type: "Lingkungan",
     },
     {
-      image: "/src/assets/image/alaspurwo.png",
+      image: "static/image/alaspurwo.png",
       title: "Taman Nasional Alas Purwo",
       description: "Di taman ini terdapat lebih dari 700 jenis tumbuhan. Tumbuhan khas di sini adalah Sawo Kecik. Selain flora terdapat banyak fauna mulai dari kelas mamalia, unggas dan reptil serta amfibi.",
       videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -323,7 +323,7 @@ export const destinationData = [
       type: "Lingkungan",
     },
     {
-      image: "/src/assets/image/watudodol.png",
+      image: "static/image/watudodol.png",
       title: "Pantai Watudodol",
       description: "Nama Watu Dodol sendiri diambil dari keberadaan batu karang besar di pinggir pantai. Batu karang dengan ukuran tinggi lebih dari 5 meter. Berbentuk panjang dan menyerupai jajanan tradisional dodol.",
       videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -331,7 +331,7 @@ export const destinationData = [
       type: "Lingkungan",
     },
     {
-      image: "/src/assets/image/merubetiri.png",
+      image: "static/image/merubetiri.png",
       title: "Taman Nasional Meru Betiri",
       description: "Wisata Taman Nasional Meru Betiri menjadi sebuah kunjungan petualangan yang sulit terlupakan. Karena wisata Taman Nasional Meru Betiri bukan hanya menyajikan tentang hutan, tetapi juga keindahan alam pantai..",
       videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -339,7 +339,7 @@ export const destinationData = [
       type: "Lingkungann",
     },
     {
-      image: "/src/assets/image/benculuk.png",
+      image: "static/image/benculuk.png",
       title: "Jawatan Benculuk",
       description: "Jawatan Benculuk sendiri merupakan kawasan hutan trembesi. Panorama pohon trembesi sangat indah dan unik sehingga tak heran banyak dijadikan spot foto",
       videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
@@ -347,7 +347,7 @@ export const destinationData = [
       type: "Lingkungan",
     },
     {
-      image: "/src/assets/image/plengkung.png",
+      image: "static/image/plengkung.png",
       title: "Pantai Plengkung",
       description: "Pantai G-Land ini merupakan satu dari deretan pantai yang terletak di kawasan Taman Nasional Alas Purwo.Nama pantai ini mulai mendunia sekitar beberapa tahun lalu karena pernah menjadi lokasi kompetisi surfing tingkat dunia.",
       videoUrl: "https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761",
