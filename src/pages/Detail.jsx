@@ -13,11 +13,7 @@ function Destination() {
     <div className="detail-container">
       <div id="status-container">
         <div className="detail-status-container">
-          <img
-            className="detail-img"
-            src={"/public/static/image/detail.png"}
-            alt=""
-          />
+          <img className="detail-img" src={"static/image/detail.png"} alt="" />
           <span className="detail-status">
             <div className="status-content">
               <WeatherStatus />
@@ -77,7 +73,7 @@ function Destination() {
               </div>
             </div>
             <div className="content-map">
-              <img src={"/public/static/image/map.png"} alt="" />
+              <img src={"static/image/map.png"} alt="" />
             </div>
           </div>
         </div>
