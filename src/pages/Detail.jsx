@@ -15,7 +15,7 @@ function Destination() {
         <div className="detail-status-container">
           <img
             className="detail-img"
-            src="/src/assets/image/detail.png"
+            src={"/public/static/image/detail.png"}
             alt=""
           />
           <span className="detail-status">
@@ -77,7 +77,7 @@ function Destination() {
               </div>
             </div>
             <div className="content-map">
-              <img src="/src/assets/image/map.png" alt="" />
+              <img src={"/public/static/image/map.png"} alt="" />
             </div>
           </div>
         </div>
