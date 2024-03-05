@@ -6,6 +6,7 @@ import WebFont from 'webfontloader'
 import HeroSection from './components/hero.jsx'
 import Destination from './pages/Detail.jsx'
 import SearchPage from './pages/Search.jsx'
+import Layout from './layout.jsx'
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,8 @@ WebFont.load({
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <Layout>
+      <RouterProvider router={router} />
+    </Layout>
   </React.StrictMode>,
 )
