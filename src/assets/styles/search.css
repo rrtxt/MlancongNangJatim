@@ -1,0 +1,40 @@
+.result{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: start;
+    margin: 20px 0;
+  }
+  
+  .result > * {
+    max-width: 80%;
+  }
+
+  .result h3{
+    margin-bottom: 20px;
+  }
+  
+  .results {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  @media (max-width: 1080px) {
+    /* Apply the grid layout with three columns for screens 768px and above */
+    .results {
+        grid-template-columns: repeat(2, 1fr)/* 1fr means one fraction of the available space */
+    }
+  }
+  
+  @media (max-width: 767px) {
+    /* Apply a different grid layout with one column for screens below 768px */
+    .results {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  
+  
+  

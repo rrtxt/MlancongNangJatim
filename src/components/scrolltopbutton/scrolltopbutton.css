@@ -1,0 +1,23 @@
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--yellowuhuy);
+    border: none;
+    border-radius: 50px;
+    color: #000000;
+    padding: 14px;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0; /* Initially hide the button */
+    transition: opacity 0.5s ease; /* Smooth fade-in effect */
+  }
+
+  .scroll-to-top i{
+    color: black;
+  }
+  
+  .scroll-to-top.visible {
+    opacity: 1; /* Button becomes visible on hover */
+  }
+  

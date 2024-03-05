@@ -1,0 +1,34 @@
+.card-container {
+  width: 420px;
+  height: 330px;
+
+  margin-top: 20px;
+}
+
+.card-img {
+  background-color: #d9d9d9;
+  width: 100%;
+  height: 60%;
+}
+
+.destination-desc {
+  background-color: #cec7c7;
+  padding: 10px;
+  color: black;
+  height: 40%;
+
+  overflow-y: scroll;
+  text-overflow: ellipsis;
+}
+
+.destination-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 20px;
+}
+
+.desc {
+  text-align: left;
+}

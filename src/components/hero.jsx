@@ -3,34 +3,34 @@ import "../assets/styles/components2/hero-module.css";
 
 
 function HeroSection() {
-    const prevBtnClickHandler = () => {
-        const thumbnailsContainer = document.querySelector('.thumbnails');
-        const thumbnailWidth = thumbnailsContainer.offsetWidth;
-        let scrollPosition = thumbnailsContainer.scrollLeft;
-        if (scrollPosition > 0) {
-          scrollPosition -= thumbnailWidth;
-          thumbnailsContainer.scrollLeft = scrollPosition;
-        }
-      };
-    
-      const nextBtnClickHandler = () => {
-        const thumbnailsContainer = document.querySelector('.thumbnails');
-        const thumbnailWidth = thumbnailsContainer.offsetWidth;
-        let scrollPosition = thumbnailsContainer.scrollLeft;
-        if (scrollPosition < thumbnailsContainer.scrollWidth - thumbnailWidth) {
-          scrollPosition += thumbnailWidth;
-          thumbnailsContainer.scrollLeft = scrollPosition;
-        }
-      };
+  const prevBtnClickHandler = () => {
+    const thumbnailsContainer = document.querySelector('.thumbnails');
+    const thumbnailWidth = thumbnailsContainer.offsetWidth;
+    let scrollPosition = thumbnailsContainer.scrollLeft;
+    if (scrollPosition > 0) {
+      scrollPosition -= thumbnailWidth;
+      thumbnailsContainer.scrollLeft = scrollPosition;
+    }
+  };
 
-    return (
-        <div>
+  const nextBtnClickHandler = () => {
+    const thumbnailsContainer = document.querySelector('.thumbnails');
+    const thumbnailWidth = thumbnailsContainer.offsetWidth;
+    let scrollPosition = thumbnailsContainer.scrollLeft;
+    if (scrollPosition < thumbnailsContainer.scrollWidth - thumbnailWidth) {
+      scrollPosition += thumbnailWidth;
+      thumbnailsContainer.scrollLeft = scrollPosition;
+    }
+  };
+
+  return (
+    <div>
       <header className="hero">
         <div className="hero-content">
           <h1>Mlancong Nang Jatim</h1>
-          <p>Mlancong—berpergian untuk bersenang-senang—merupakan sebuah website yang memberikan segala informasi 
+          <p>Mlancong—berpergian untuk bersenang-senang—merupakan sebuah website yang memberikan segala informasi
             terkait berbagai wisata di Jawa Timur yang akan mempermudah pengalaman anda untuk mempersiapkan pelancongan anda!</p>
-          <a href="#" className="explore-btn">Explore Now!</a>
+          <a href="/search" className="explore-btn">Explore Now!</a>
         </div>
       </header>
 
@@ -100,7 +100,7 @@ function HeroSection() {
         </div>
       </section>
     </div>
-    );
+  );
 }
 
 export default HeroSection;
