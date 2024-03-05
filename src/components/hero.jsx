@@ -39,22 +39,34 @@ function HeroSection() {
         <div className="thumbnails-container">
           <div className="thumbnails">
             <div className="thumbnail">
-              <img src="jatim.jpg" alt="Destination 1" />
+            <a href="/search">
+              <img src="src/assets/image/tunjungan.png" alt="Destination 1" />
+            </a>
             </div>
             <div className="thumbnail">
-              <img src="Gunung-Bromo-Malang.jpg" alt="Destination 2" />
+            <a href="/search">
+              <img src="src/assets/image/18.png" alt="Destination 1" />
+            </a>
             </div>
             <div className="thumbnail">
-              <img src="wisata-kawah-ijen.jpg" alt="Destination 3" />
+            <a href="/search">
+              <img src="src/assets/image/40.png" alt="Destination 1" />
+            </a>
             </div>
             <div className="thumbnail">
-              <img src="jatim.jpg" alt="Destination 1" />
+            <a href="/search">
+              <img src="src/assets/image/32.png" alt="Destination 1" />
+            </a>
             </div>
             <div className="thumbnail">
-              <img src="Gunung-Bromo-Malang.jpg" alt="Destination 2" />
+            <a href="/search">
+              <img src="src/assets/image/21.png" alt="Destination 1" />
+            </a>
             </div>
             <div className="thumbnail">
-              <img src="wisata-kawah-ijen.jpg" alt="Destination 3" />
+            <a href="/search">
+              <img src="src/assets/image/48.png" alt="Destination 1" />
+            </a>
             </div>
           </div>
           <button className="prev-btn" onClick={prevBtnClickHandler}>&lt;</button>
