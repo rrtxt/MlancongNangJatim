@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../assets/styles/index.css";
 import "../assets/styles/detail.css";
 import RelatedVideo from "../components/Related-Video";
 import WeatherStatus from "../components/Weather-Status";

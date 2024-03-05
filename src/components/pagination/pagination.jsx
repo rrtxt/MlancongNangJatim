@@ -43,9 +43,8 @@ const HardcodedPagination = ({ setCurrentPage, currentPage, totalPages }) => {
         {dummyPages.map((page) => (
           <span
             key={page}
-            className={`block border border-solid border-lightGray hover:bg-lightGray w-10 h-10 flex items-center justify-center rounded-md mr-4 cursor-pointer ${
-              currentPage === page - 1 ? "text-white" : ""
-            }`}
+            className={`block border border-solid border-lightGray hover:bg-lightGray w-10 h-10 flex items-center justify-center rounded-md mr-4 cursor-pointer ${currentPage === page - 1 ? "text-white" : ""
+              }`}
             onClick={() => handlePageClick(page - 1)}
           >
             {page}
