@@ -47,7 +47,7 @@ function Destination() {
             <h2 className="content-title">{destination?.place_name}</h2>
           </Suspense>
           <div className="content-desc">
-            {/* <p>{destination.deskripsi}</p> */}
+            <p>{destination?.deskripsi}</p>
             <div className="content-price">
               <Icon
                 icon="la:money-bill-wave"
