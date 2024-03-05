@@ -1,5 +1,6 @@
 import React from 'react'
 import "../assets/styles/components2/hero-module.css";
+import { Link } from 'react-router-dom';
 
 
 function HeroSection() {
@@ -38,9 +39,11 @@ function HeroSection() {
         <h2>Destinasi Kesukaan</h2>
         <div className="thumbnails-container">
           <div className="thumbnails">
-            <div className="thumbnail">
-              <img src="jatim.jpg" alt="Destination 1" />
-            </div>
+            <Link to={'/detail'}>
+              <div className="thumbnail">
+                <img src="jatim.jpg" alt="Destination 1" />
+              </div>
+            </Link>
             <div className="thumbnail">
               <img src="Gunung-Bromo-Malang.jpg" alt="Destination 2" />
             </div>
