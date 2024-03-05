@@ -40,32 +40,32 @@ function HeroSection() {
           <div className="thumbnails">
             <div className="thumbnail">
             <a href="/search">
-              <img src="src/assets/image/tunjungan.png" alt="Destination 1" />
+              <img src="static/image/tunjungan.png" alt="Destination 1" />
             </a>
             </div>
             <div className="thumbnail">
             <a href="/search">
-              <img src="src/assets/image/18.png" alt="Destination 1" />
+              <img src="static/image/18.png" alt="Destination 2" />
             </a>
             </div>
             <div className="thumbnail">
             <a href="/search">
-              <img src="src/assets/image/40.png" alt="Destination 1" />
+              <img src="static/image/40.png" alt="Destination 3" />
             </a>
             </div>
             <div className="thumbnail">
             <a href="/search">
-              <img src="src/assets/image/32.png" alt="Destination 1" />
+              <img src="static/image/32.png" alt="Destination 4" />
             </a>
             </div>
             <div className="thumbnail">
             <a href="/search">
-              <img src="src/assets/image/21.png" alt="Destination 1" />
+              <img src="static/image/21.png" alt="Destination 5" />
             </a>
             </div>
             <div className="thumbnail">
             <a href="/search">
-              <img src="src/assets/image/48.png" alt="Destination 1" />
+              <img src="static/image/48.png" alt="Destination 6" />
             </a>
             </div>
           </div>
