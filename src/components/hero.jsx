@@ -78,12 +78,24 @@ function HeroSection() {
       <section className="city-options" id='cities'>
         <h2>Pilih Kotamu!</h2>
         <div className="city-buttons">
-          <button>Surabaya</button>
-          <button>Malang</button>
-          <button>Batu</button>
-          <button>Probolinggo</button>
-          <button>Mojokerto</button>
-          <button>Banyuwangi</button>
+          <Link to={"/search"}>
+            <button>Surabaya</button>
+          </Link>
+          <Link to={"/search"}>
+            <button>Malang</button>
+          </Link>
+          <Link to={"/search"}>
+            <button>Batu</button>
+          </Link>
+          <Link to={"/search"}>
+           <button>Probolinggo</button>
+          </Link>
+          <Link to={"/search"}>
+            <button>Mojokerto</button>
+          </Link>
+          <Link to={"/search"}>
+            <button>Banyuwangi</button>
+          </Link>
         </div>
         <div className="city-buttons">
           <button>Pasuruan</button>
