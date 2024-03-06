@@ -39,24 +39,36 @@ function HeroSection() {
         <h2>Destinasi Kesukaan</h2>
         <div className="thumbnails-container">
           <div className="thumbnails">
-            <div className="thumbnail">
-              <img src="jatim.jpg" alt="Destination 1" />
-            </div>
-            <div className="thumbnail">
-              <img src="Gunung-Bromo-Malang.jpg" alt="Destination 2" />
-            </div>
-            <div className="thumbnail">
-              <img src="wisata-kawah-ijen.jpg" alt="Destination 3" />
-            </div>
-            <div className="thumbnail">
-              <img src="jatim.jpg" alt="Destination 1" />
-            </div>
-            <div className="thumbnail">
-              <img src="Gunung-Bromo-Malang.jpg" alt="Destination 2" />
-            </div>
-            <div className="thumbnail">
-              <img src="wisata-kawah-ijen.jpg" alt="Destination 3" />
-            </div>
+            <Link to={"/search"}>
+              <div className="thumbnail">
+                <img src="jatim.jpg" alt="Destination 1" />
+              </div>
+            </Link>
+            <Link to={"/search"}>
+              <div className="thumbnail">
+                <img src="Gunung-Bromo-Malang.jpg" alt="Destination 2" />
+              </div>
+            </Link>
+            <Link to={"/search"}>
+              <div className="thumbnail">
+                <img src="wisata-kawah-ijen.jpg" alt="Destination 3" />
+              </div>
+            </Link>
+            <Link to={"/search"}>
+              <div className="thumbnail">
+                <img src="jatim.jpg" alt="Destination 1" />
+              </div>
+            </Link>
+            <Link to={"/search"}>
+              <div className="thumbnail">
+                <img src="Gunung-Bromo-Malang.jpg" alt="Destination 2" />
+              </div>
+            </Link>
+            <Link to={"/search"}>
+              <div className="thumbnail">
+                <img src="wisata-kawah-ijen.jpg" alt="Destination 3" />
+              </div>
+            </Link>
           </div>
           <button className="prev-btn" onClick={prevBtnClickHandler}>&lt;</button>
           <button className="next-btn" onClick={nextBtnClickHandler}>&gt;</button>
