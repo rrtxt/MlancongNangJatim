@@ -24,6 +24,14 @@ function Destination() {
     setDestination(destinasi[0]);
   }, [destinationId]);
 
+  destination?.tiktok_video.forEach((video) => console.log(video));
+
+  function getFinalPath(url) {
+    // const trimmedUrl = String(url.trim());
+    const parsedUrl = new URL(url);
+    return parsedUrl.pathname.split("/").pop();
+  }
+
   return (
     <div className="detail-container">
       <div id="status-container">
@@ -55,7 +63,7 @@ function Destination() {
                 height="48"
                 style={{ color: "white" }}
               />
-              <span>Rp. 6000</span>
+              <span>Rp. {destination?.ticket_price}</span>
             </div>
             <div className="content-facility">
               <h3>Fasilitas</h3>
@@ -88,8 +96,8 @@ function Destination() {
         <div className="related-video">
           <h2 className="content-title">Video Terkait</h2>
           <div className="videos-container">
-            {videos.map((video) => (
-              <RelatedVideo key={video} videoId={"7317145217650429189 "} />
+            {destination?.tiktok_video.map((videoUrl, key) => (
+              <RelatedVideo key={key} videoId={getFinalPath(videoUrl)} />
             ))}
           </div>
         </div>

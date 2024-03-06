@@ -67,7 +67,7 @@ body {
   align-items: start;
   justify-content: start;
 
-  /* width: 100%; */
+  max-width: 80%;
 
   padding-bottom: 75px;
 }
