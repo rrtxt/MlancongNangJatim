@@ -25,7 +25,7 @@ export default function DestinationCard({ data = {} }) {
             </div>
           </div>
           <div className="iteminfotop">
-            <h5>{description}</h5>
+             <h5>{description.slice(0, 120)}...</h5>
           </div>
         </>
       )}

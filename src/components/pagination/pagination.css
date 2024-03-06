@@ -70,13 +70,13 @@
   .cursor-pointer {
     cursor: pointer;
   }
-  
-  .bg-purple {
-    background-color: #800080; /* Adjust the background color as needed */
-    color: #fff; /* Adjust the text color as needed */
-  }
-  
+
   .text-white {
     color: #fff; /* Adjust the text color as needed */
   }
   
+  .normal{
+    background-color: var(--yellowuhuy);
+    color: var(--black-color);
+    font-weight: bold;
+  }
