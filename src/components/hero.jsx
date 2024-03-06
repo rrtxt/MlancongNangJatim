@@ -41,32 +41,32 @@ function HeroSection() {
           <div className="thumbnails">
             <Link to={"/search"}>
               <div className="thumbnail">
-                <img src="jatim.jpg" alt="Destination 1" />
+                <img src="static/image/musolah.png" alt="Destination 1" />
               </div>
             </Link>
             <Link to={"/search"}>
               <div className="thumbnail">
-                <img src="Gunung-Bromo-Malang.jpg" alt="Destination 2" />
+                <img src="static/image/tp.png" alt="Destination 2" />
               </div>
             </Link>
             <Link to={"/search"}>
               <div className="thumbnail">
-                <img src="wisata-kawah-ijen.jpg" alt="Destination 3" />
+                <img src="static/image/ondomohoen.png" alt="Destination 3" />
               </div>
             </Link>
             <Link to={"/search"}>
               <div className="thumbnail">
-                <img src="jatim.jpg" alt="Destination 1" />
+                <img src="static/image/tot.png" alt="Destination 1" />
               </div>
             </Link>
             <Link to={"/search"}>
               <div className="thumbnail">
-                <img src="Gunung-Bromo-Malang.jpg" alt="Destination 2" />
+                <img src="static/image/ijen.png" alt="Destination 2" />
               </div>
             </Link>
             <Link to={"/search"}>
               <div className="thumbnail">
-                <img src="wisata-kawah-ijen.jpg" alt="Destination 3" />
+                <img src="static/image/redungklurak.png" alt="Destination 3" />
               </div>
             </Link>
           </div>
