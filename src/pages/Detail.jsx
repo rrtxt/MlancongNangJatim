@@ -10,8 +10,7 @@ import data from "../data.json";
 import { useParams } from "react-router";
 
 function Destination() {
-  const [videos] = useState([1, 2, 3, 4]);
-  const [destinations] = useState([1, 2, 3, 4, 5, 6]);
+  // const [destinations] = useState([1, 2, 3, 4, 5, 6]);
   const [destination, setDestination] = useState(null);
   const params = useParams();
   const destinationId = params.destination_id;
@@ -23,8 +22,6 @@ function Destination() {
     console.log(destinasi[0]);
     setDestination(destinasi[0]);
   }, [destinationId]);
-
-  destination?.tiktok_video.forEach((video) => console.log(video));
 
   function getFinalPath(url) {
     // const trimmedUrl = String(url.trim());
@@ -104,8 +101,8 @@ function Destination() {
         <div className="nearest-destination">
           <h2 className="content-title">Destinasi Terdekat</h2>
           <div className="destinations-container">
-            {destinations.map((destination) => (
-              <NearestDestinationCard key={destination} />
+            {destination?.nearest_destinations.map((destination, key) => (
+              <NearestDestinationCard key={key} props={destination} />
             ))}
           </div>
         </div>

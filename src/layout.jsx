@@ -8,11 +8,7 @@ import { useEffect, useRef, useState } from "react";
 function Layout({ children }) {
   const location = useLocation();
   const currentRoute = location.pathname;
-  const isHome = currentRoute === "/"; // Use constant for efficiency
-
-  // Console log for debugging purposes only (remove in production)
-  console.log("currentRoute:", currentRoute);
-  console.log("isHome:", isHome);
+  const isHome = currentRoute === "/";
   return (
     <div className="layout">
       {isHome && <NavHome />}
