@@ -63,7 +63,7 @@ function HeroSection() {
         </div>
       </section>
 
-      <section className="city-options">
+      <section className="city-options" id='cities'>
         <h2>Pilih Kotamu!</h2>
         <div className="city-buttons">
           <button>Surabaya</button>

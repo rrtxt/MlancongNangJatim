@@ -18,9 +18,8 @@ export default function NavHome() {
 
   return (
     <header
-      className={`navhome-header  ${isScrolled ? "scrolled" : ""} ${
-        isMenuVisible ? "show-menu" : ""
-      }`}>
+      className={`navhome-header  ${isScrolled ? "scrolled" : ""} ${isMenuVisible ? "show-menu" : ""
+        }`}>
       <nav
         className={`nav container ${isMenuVisible ? "show-menu" : ""}`}
         id="nav-menu">
@@ -77,8 +76,9 @@ export default function NavHome() {
                 </li>
               </ul>
             </li>
-
-            <div className="nav__link"> Kota </div>
+            <a href="#cities">
+              <div className="nav__link"> Kota </div>
+            </a>
 
             <li>
               <Link to="/search" className="nav__link">

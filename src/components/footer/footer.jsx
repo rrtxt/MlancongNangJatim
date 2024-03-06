@@ -25,8 +25,8 @@ export default function Foot() {
                   <h4>Jelajahi</h4>
                   <ul>
                      <li><a href="#">Tentang Kami</a></li>
-                     <li><a href="#">Kota Wisata</a></li>
-                     <li><a href="#">Pencarian Destinasi</a></li>
+                     <li><a href="#cities">Kota Wisata</a></li>
+                     <li><a href="/search">Pencarian Destinasi</a></li>
                   </ul>
                </div>
                <div className="footlogo">

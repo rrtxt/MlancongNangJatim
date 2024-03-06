@@ -65,7 +65,9 @@ export default function Nav() {
                             </ul>
                         </li>
 
-                        <div className="nav__link"> Kota  </div>
+                        <a href={"/#cities"}>
+                            <div className="nav__link"> Kota  </div>
+                        </a>
 
                         <li>
                             <Link to="/search" className="nav__link">
