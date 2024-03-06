@@ -33,7 +33,7 @@ function Destination() {
     <div className="detail-container">
       <div id="status-container">
         <div className="detail-status-container">
-          <img className="detail-img" src={"/static/image/detail.png"} alt="" />
+          <img className="detail-img" src={destination?.image} alt="" />
           <span className="detail-status">
             <div className="status-content">
               <WeatherStatus />
@@ -93,17 +93,27 @@ function Destination() {
         <div className="related-video">
           <h2 className="content-title">Video Terkait</h2>
           <div className="videos-container">
-            {destination?.tiktok_video.map((videoUrl, key) => (
-              <RelatedVideo key={key} videoId={getFinalPath(videoUrl)} />
-            ))}
+            <div className="video-container">
+              {!destination?.tiktok_video ? (
+                <h3>Tidak ada Video Tiktok</h3>
+              ) : (
+                destination?.tiktok_video.map((videoUrl, key) => (
+                  <RelatedVideo key={key} videoId={getFinalPath(videoUrl)} />
+                ))
+              )}
+            </div>
           </div>
         </div>
         <div className="nearest-destination">
           <h2 className="content-title">Destinasi Terdekat</h2>
           <div className="destinations-container">
-            {destination?.nearest_destinations.map((destination, key) => (
-              <NearestDestinationCard key={key} props={destination} />
-            ))}
+            {!destination?.nearest_destinations ? (
+              <h3>Tidak ada Destinasi Terdekat</h3>
+            ) : (
+              destination?.nearest_destinations.map((destination, key) => (
+                <NearestDestinationCard key={key} props={destination} />
+              ))
+            )}
           </div>
         </div>
       </div>

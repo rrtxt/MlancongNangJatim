@@ -39,11 +39,9 @@ function HeroSection() {
         <h2>Destinasi Kesukaan</h2>
         <div className="thumbnails-container">
           <div className="thumbnails">
-            <Link to={'detail/1'}>
-              <div className="thumbnail">
-                <img src="jatim.jpg" alt="Destination 1" />
-              </div>
-            </Link>
+            <div className="thumbnail">
+              <img src="jatim.jpg" alt="Destination 1" />
+            </div>
             <div className="thumbnail">
               <img src="Gunung-Bromo-Malang.jpg" alt="Destination 2" />
             </div>

@@ -3,6 +3,7 @@
     {
       "id": 1,
       "place_name": "Jalan Tunjungan",
+      "image": "/static/image/tunjungan.png",
       "deskripsi": "Disebut sebagai Malioboro nya Surabaya, Jalan Tunjungan punya keunikannya sendiri lho! Ada banyak macam kuliner yang bisa kamu nikmati!",
       "ticket_price": "-",
       "facilities": "Masjid Terdekat",
@@ -15,21 +16,25 @@
       "nearest_destinations": [
         {
           "place_name": "Tunjungan Plaza",
+          "image": "/static/image/tp.png",
           "distance": "800 m",
           "deskripsi": "Surganya belanja dan hiburan di kota pahlawan, Surabaya! Dikenal sebagai salah satu pusat perbelanjaan terbesar di Jawa Timur, Tunjungan Plaza memiliki segalanya untuk memenuhi kebutuhan belanja dan hiburan Anda."
         },
         {
           "place_name": "Balai Pemuda",
+          "image": "/static/image/bapem.png",
           "distance": "950 m",
           "deskripsi": "Gedung bersejarah (cagar budaya) yang dilindungi oleh Pemerintah Kota Surabaya."
         },
         {
           "place_name": "Sate Kelapa Ondomohen Bu Asih",
+          "image": "/static/image/ondomohoen.png",
           "distance": "700 m",
           "deskripsi": "Tempat wajib dikunjungi bagi pecinta kuliner! Sate yang lezat dan unik, dengan bumbu kelapa yang khas dan cita rasa yang menggoda selera."
         },
         {
           "place_name": "Alun-Alun Surabaya",
+          "image": "/static/image/alun.png",
           "distance": "900 m",
           "deskripsi": "Berbeda dari kebanyakan alun-alun, Alun-Alun Surabaya memiliki layout seperti kawasan komplek yang terdiri dari beberapa bangunan dengan design kolonial. Tak ketinggalan juga, ada pameran seni yang indah di bawah alun-alun ini!"
         }
@@ -38,6 +43,7 @@
     {
       "id": 2,
       "place_name": "Alun-Alun Surabaya",
+      "image": "/static/image/alun.png",
       "deskripsi": "Berbeda dari kebanyakan alun-alun, Alun-Alun Surabaya memiliki layout seperti kawasan komplek yang terdiri dari beberapa bangunan dengan desain kolonial. Tak ketinggalan juga, ada pameran seni yang indah di bawah alun-alun ini!",
       "ticket_price": "-",
       "facilities": ["Toilet"],
@@ -49,25 +55,37 @@
       "nearest_destinations": [
         {
           "place_name": "Jalan Tunjungan",
+          "image": "/static/image/tunjungan.png",
           "distance": "2.4 km",
           "deskripsi": "Selamat datang di Jalan Tunjungan, di mana petualangan belanja dan eksplorasi berpadu dengan pesona kota yang memikat! Di sini, Anda akan memasuki dunia yang penuh warna dan kehidupan, di mana setiap langkah memberikan kejutan baru. Jelajahi toko-toko yang dipenuhi dengan barang-barang unik dan terkini, nikmati hidangan lezat di restoran-restoran khas Surabaya, dan jangan lewatkan kesempatan untuk berfoto di depan gedung-gedung bersejarah yang menghiasi jalan ini."
         },
         {
           "place_name": "Tunjungan Plaza",
+          "image": "/static/image/tp.png",
           "distance": "750 m",
           "deskripsi": ""
         },
         {
           "place_name": "Balai Pemuda",
+          "image": "/static/image/bapem.png",
           "distance": "10 m",
           "deskripsi": ""
         },
         {
           "place_name": "Sate Klopo Ondomohen",
+          "image": "/static/image/ondomohoen.png",
           "distance": "1 km",
           "deskripsi": ""
         }
       ]
+    },
+    {
+      "id": 3,
+      "place_name": "Taman Bungkul",
+      "image": "/static/image/bungkul.png",
+      "deskripsi": "Taman Bungkul adalah taman wisata kota yang terletak di pusat kota Surabaya, tepatnya di Jalan Raya Darmo. Letaknya yang berada di jantung Kota Surabaya membuat taman ini tidak hanya berfungsi sebagai lahan hijau saja, tetapi juga sebagai destinasi wisata yang populer di Surabaya.",
+      "ticket_price": "-",
+      "facilities": ["Toilet"]
     }
   ]
 }

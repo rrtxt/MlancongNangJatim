@@ -11,12 +11,21 @@ body {
 /* .content {
   width: 80%;
 } */
+.related-video,
+.nearest-destination {
+  max-width: 80%;
+}
 
 .detail-status-container {
   width: 80%;
   display: flex;
   /* justify-content: center; */
   position: relative;
+}
+
+.videos-container,
+.destinations-container {
+  margin-top: 30px;
 }
 
 .detail-img,
@@ -143,6 +152,13 @@ body {
 }
 
 .videos-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-container {
   display: flex;
   justify-content: space-evenly;
   gap: 10px;

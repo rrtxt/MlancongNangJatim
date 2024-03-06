@@ -3,7 +3,7 @@ import "../assets/styles/components/nearest-destination-card.css";
 function NearestDestinationCard({ props }) {
   return (
     <div className="card-container">
-      <img className="card-img" src="" alt="" />
+      <img className="card-img" src={props?.image} alt="" />
       <div className="destination-desc">
         <div className="destination-name">
           <h3>{props?.place_name}</h3>
