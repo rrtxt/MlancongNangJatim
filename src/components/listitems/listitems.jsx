@@ -26,7 +26,9 @@ export default function ListItem() {
           <Link to={"/detail/2"}>
             <DestinationCard data={destinationData[1]} />
           </Link>
-          <DestinationCard data={destinationData[2]} />
+          <Link to={"/detail/3"}>
+            <DestinationCard data={destinationData[2]} />
+          </Link>
         </div>
 
       </div>
