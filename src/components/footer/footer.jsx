@@ -31,7 +31,7 @@ export default function Foot() {
                </div>
                <div className="footlogo">
                   <h4 id="uhuyy"></h4>
-                  <img className="logo_foot" src={"/src/assets/image/footlogo.png"} alt="MlancongNangJatim" />
+                  <img className="logo_foot" src={"static/image/footlogo.png"} alt="MlancongNangJatim" />
                </div>
             </div>
 

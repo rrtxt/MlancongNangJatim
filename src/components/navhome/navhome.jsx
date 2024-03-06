@@ -53,24 +53,24 @@ export default function NavHome() {
 
               <ul className="dropdown__menu">
                 <li>
-                  <a href="#" className="dropdown__link">
+                  <a href="/search" className="dropdown__link">
                     <i className="ri-plant-line"></i>Lingkungan
                   </a>
                 </li>
 
                 <li>
-                  <a href="#" className="dropdown__link">
+                  <a href="/search" className="dropdown__link">
                     <i className="ri-opera-line"></i>Budaya
                   </a>
                 </li>
 
                 <li>
-                  <a href="#" className="dropdown__link">
+                  <a href="/search" className="dropdown__link">
                     <i className="ri-game-line"></i>Atraksi HIburan
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="dropdown__link">
+                  <a href="/search" className="dropdown__link">
                     <i className="ri-map-pin-add-line"></i> See more
                   </a>
                 </li>
