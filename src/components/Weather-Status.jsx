@@ -35,12 +35,14 @@ function WeatherStatus() {
           setIsActive(!isActive);
         }}>
         <div className="date">{getDayMonthYear(initDate)}</div>
-        <Icon
-          icon="fluent:weather-hail-day-24-regular"
-          width="64"
-          height="64"
-          style={{ color: "black" }}
-        />
+        <div className="weather-icon">
+          <Icon
+            icon="fluent:weather-hail-day-24-regular"
+            width="64"
+            height="64"
+            style={{ color: "black" }}
+          />
+        </div>
       </div>
       {isActive ? (
         <div className="weather-dropdown">

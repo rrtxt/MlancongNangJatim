@@ -23,6 +23,19 @@ body {
   position: relative;
 }
 
+.weather {
+  width: 300px;
+}
+
+.weather-icon {
+}
+
+.transport-container {
+  display: flex;
+  gap: 20px;
+  width: 10vw;
+}
+
 .videos-container,
 .destinations-container {
   margin-top: 30px;
@@ -139,6 +152,10 @@ body {
   justify-content: center;
 }
 
+.content-map img {
+  width: 100%;
+}
+
 .related-video {
   display: flex;
   flex-direction: column;
@@ -161,7 +178,8 @@ body {
 .video-container {
   display: flex;
   justify-content: space-evenly;
-  gap: 10px;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .nearest-destination {
@@ -180,4 +198,18 @@ body {
   grid-template-columns: auto auto auto;
   gap: 20px;
   /* height: 100%; */
+}
+
+@media (max-width: 1523px) {
+  /* Your tablet styles here */
+  .destinations-container {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (max-width: 980px) {
+  /* Your mobile styles here */
+  .destinations-container {
+    grid-template-columns: auto;
+  }
 }

@@ -36,7 +36,9 @@ function Destination() {
           <img className="detail-img" src={destination?.image} alt="" />
           <span className="detail-status">
             <div className="status-content">
-              <WeatherStatus />
+              <div className="weather">
+                <WeatherStatus />
+              </div>
               <div className="transport-container">
                 {/* <Icon icon="mdi:car-outline" width="72" height="72" /> */}
                 <Icon icon="ph:car" width="72" height="72" />

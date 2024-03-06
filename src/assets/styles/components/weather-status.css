@@ -1,7 +1,7 @@
 .date {
   color: black;
   font-weight: 900;
-  font-size: 28px;
+  font-size: 2em;
 }
 
 .temp {
@@ -19,12 +19,8 @@
   align-items: center;
   gap: 20px;
 
-  max-width: 300px;
-}
-
-.transport-container {
-  display: flex;
-  gap: 20px;
+  /* max-width: 300px; */
+  width: 100%;
 }
 
 .weather-dropdown {
@@ -40,4 +36,18 @@
   border: 1px solid black;
 
   padding: 10px 20px;
+}
+
+@media (max-width: 1523px) {
+  .date {
+    font-size: 20px;
+  }
+
+  .weather-container {
+    width: 80%;
+  }
+
+  .weather-icon {
+    width: 10px;
+  }
 }
